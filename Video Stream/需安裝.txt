@@ -1,0 +1,11 @@
+python video.py 執行
+
+pip install -U Flask //掛載server
+pip install opencv-python//opencv
+pip install requests 
+pip install -U flask-cors
+pip install opencv-contrib-python
+
+注意事項
+1.需開通路由內網 否則路由ip吃不到
+2.有個錯誤還未排除 Server需要關閉對外防火牆才可開啟rtsp串流
