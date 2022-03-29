@@ -26,7 +26,7 @@ from flask import Flask, request, Response
 from flask import jsonify
 import base64
 flaskThread = None
-ipAdress = '192.168.68.122' #IP adress
+ipAdress = '192.168.194.102' #IP adress
 flaskobj = Flask(__name__)
 
 # AWS
